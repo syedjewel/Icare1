@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.warriors.group.icare.ProfileListActivity">
+    <item
+        android:id="@+id/add_profile_menu"
+        android:orderInCategory="100"
+        android:title="@string/add_profile_menu"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_change_user_info"
+        android:orderInCategory="200"
+        android:title="Change Username and Password"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee9e4"
+    android:paddingTop="5dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context="com.warriors.group.icare.DashBoardActivity">
+    <LinearLayout
+        android:background="@drawable/edit_text_background"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="5"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        >
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:id="@+id/dashBoardNameTV"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:hint="Name"
+                android:layout_height="0dp" />
+            <TextView
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:id="@+id/dashBoardGenderTV"
+                android:layout_width="match_parent"
+                android:layout_weight=".8"
+                android:hint="Gender"
+                android:layout_height="0dp" />
+            <TextView
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:id="@+id/dashBoardBloodGroupTV"
+                android:layout_width="match_parent"
+                android:layout_weight=".8"
+                android:hint="Blood Group"
+                android:layout_height="0dp" />
+            <TextView
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:id="@+id/dashBoardBirthDateTV"
+                android:layout_width="match_parent"
+                android:layout_weight=".8"
+                android:hint="Date of Birth"
+                android:layout_height="0dp" />
+            <TextView
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:id="@+id/dashBoardAgeTV"
+                android:layout_width="match_parent"
+                android:layout_weight="1.2"
+                android:hint="Age"
+                android:layout_height="0dp" />
+            <TextView
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:id="@+id/dashBoardEmailTV"
+                android:layout_width="match_parent"
+                android:layout_weight="1.2"
+                android:hint="Email"
+                android:layout_height="0dp" />
+            <TextView
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:id="@+id/dashBoardMobileTV"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:hint="Mobile"
+                android:layout_height="0dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/image_view_background"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+                <ImageView
+                    android:layout_gravity="center"
+                    android:foregroundGravity="center"
+                    android:id="@+id/dashBoardProfilePicIV"
+                    android:layout_width="225px"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="false"
+                    android:layout_height="220px" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="2"
+                android:paddingLeft="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:id="@+id/dashBoardHeightTV"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:hint="Height"
+                    android:layout_height="0dp" />
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:id="@+id/dashBoardWeightTV"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:hint="Weight"
+                    android:layout_height="0dp" />
+                <TextView
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:id="@+id/dashBoardDiseaseTV"
+                    android:layout_width="match_parent"
+                    android:layout_weight="2"
+                    android:hint="major Disease"
+                    android:layout_height="0dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="5"
+        >
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <Button
+                android:background="@drawable/edit_text_background"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:textColor="@android:color/black"
+                android:text="@string/diet_chart"
+                android:onClick="onClickDiet"
+                />
+            <Button
+                android:layout_margin="5dp"
+                android:background="@drawable/edit_text_background"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:textColor="@android:color/black"
+                android:text="@string/vaccination"
+                android:onClick="onClickVaccination"
+                />
+            <Button
+                android:layout_margin="5dp"
+                android:background="@drawable/edit_text_background"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:textColor="@android:color/black"
+                android:text="@string/medical_history"
+                android:onClick="onClickMedicalHistory"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <Button
+                android:background="@drawable/edit_text_background"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:textColor="@android:color/black"
+                android:text="@string/doctors"
+                android:onClick="onClickDoctors"
+                />
+
+            <Button
+                android:background="@drawable/edit_text_background"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:onClick="onClickAppointment"
+                android:textSize="13sp"
+                android:textColor="@android:color/black"
+                android:text="@string/doctors_appointment"
+                />
+
+            <Button
+                android:background="@drawable/edit_text_background"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:textColor="@android:color/black"
+                android:text="@string/medicine_dose"
+                android:onClick="onClickMedicineDose"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <Button
+                android:background="@drawable/edit_text_background"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:textColor="@android:color/black"
+                android:onClick="onClickHospital"
+                android:text="@string/hospital_info"
+                />
+            <Button
+                android:background="@drawable/edit_text_background"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:textColor="@android:color/black"
+                android:text="@string/general_info"
+                android:onClick="onClickGeneralInfo"
+                />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

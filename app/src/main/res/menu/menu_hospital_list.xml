@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.warriors.group.icare.HospitalListActivity">
+    <item
+        android:id="@+id/menu_add_hospital"
+        android:orderInCategory="100"
+        android:title="@string/add_hospital"
+        app:showAsAction="always" />
+</menu>

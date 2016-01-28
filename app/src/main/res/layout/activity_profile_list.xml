@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#eee9e4"
+    tools:context="com.warriors.group.icare.ProfileListActivity">
+<LinearLayout
+    android:background="@drawable/searchbox_style"
+    android:id="@+id/lin"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <EditText
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/profileSearchET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/profile_search" />
+
+</LinearLayout>
+    <ListView
+        android:layout_marginTop="10dp"
+        android:id="@+id/profileLV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lin">
+
+    </ListView>
+
+</RelativeLayout>

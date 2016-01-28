@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#eee9e4"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.warriors.group.icare.AddMedicalHistoryActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_background"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:textColor="@android:color/black"
+            android:text="Select Doctor: "
+            android:textSize="16sp"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:layout_width="0dp"
+            android:id="@+id/addHistoryDoctorSpinner"
+            android:layout_weight="4"
+            android:layout_height="match_parent">
+        </Spinner>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_background"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:gravity="center"
+            android:text="Date : "
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    <EditText
+        android:id="@+id/addMedicalHistoryDateET"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:editable="false"
+        android:hint="@string/date"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_background"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:gravity="center"
+            android:text="Details : "
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    <EditText
+        android:id="@+id/addMedicalHistoryDetailsET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:inputType="text"
+        android:hint="@string/details"
+        android:textColor="@android:color/black"
+
+        />
+    </LinearLayout>
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:id="@+id/addMedicalHistoryIV"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:layout_width="256px"
+        android:layout_height="256px" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#2196F3"
+        android:drawableLeft="@drawable/ic_action_photo"
+        android:drawableStart="@drawable/ic_action_photo"
+        android:onClick="onClickbtnTakePrescription"
+        android:padding="14dp"
+        android:text="@string/takePrecriptionReport"
+        android:textColor="#ffffff"
+        android:typeface="monospace" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:layout_height="70dp">
+        <Button
+            android:id="@+id/addMedicalHistorySaveBTN"
+            android:onClick="onClickMedicalHistorySave"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_text_background"
+            android:text="@string/save"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            />
+        <Button
+            android:id="@+id/addMedicalHistoryNewBTN"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_text_background"
+            android:text="@string/neww"
+            android:onClick="onClickMedicalHistoryNew"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

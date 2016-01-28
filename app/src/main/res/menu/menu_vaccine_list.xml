@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.warriors.group.icare.VaccineListActivity">
+    <item
+        android:id="@+id/menu_add_vaccine"
+        android:orderInCategory="100"
+        android:title="@string/add_vaccination"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">Icare</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="diet_chart">Diet Chart</string>
+    <string name="vaccination">Vaccination</string>
+    <string name="doctors">Doctors List</string>
+    <string name="doctors_appointment">Appointment</string>
+    <string name="general_info">General Information</string>
+    <string name="hospital_info">Hospital Information</string>
+    <string name="medical_history">Medical History</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="gender">Gender :</string>
+    <string name="height">Height in Inch</string>
+    <string name="weight">Weight in KG</string>
+    <string name="email">Email Address</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="blood_group">Blood Group: </string>
+    <string name="save">SAVE</string>
+    <string name="neww">New</string>
+    <string name="diet_type">Diet Type: </string>
+    <string name="date">Date</string>
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
+    <string name="time">Time</string>
+    <string name="daily_alarm">Daily Alarm</string>
+    <string name="reminder">Reminder</string>
+    <string name="menu">Menu</string>
+    <string name="details">Details</string>
+    <string name="vaccine_name">Vaccine Name</string>
+    <string name="address">Address</string>
+    <string name="appointment_date">Appointment Date</string>
+    <string name="appointment_time">Appointment Time</string>
+    <string name="remarks">Remarks</string>
+    <string name="doctor_name">Doctor Name</string>
+    <string name="dashboard">DashBoard</string>
+    <string name="add_profile">Add Profile</string>
+    <string name="add_diet">Add Diet</string>
+    <string name="add_vaccination">Add Vaccination</string>
+    <string name="add_doctor">Add Doctor</string>
+    <string name="add_medical_history">Add Medical History</string>
+    <string name="title_activity_add_medicine">Add Medicine</string>
+
+    <string name="title_activity_appoinment_list">Appointment List</string>
+    <string name="add_appointment">Add Appointment</string>
+
+
+    <string name="add_medicine_dose">Add Medicine Dose</string>
+    <string name="medicine_name">Medicine Name</string>
+    <string name="medicine_dose">Medicine Dose</string>
+    <string name="medicine_period_m">Morning</string>
+    <string name="medicine_period_a">Afternoon</string>
+    <string name="medicine_period_e">Evening</string>
+    <string name="medicine_period_n">Night</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_profile_menu">ADD PROFILE</string>
+
+    <string name="title_activity_profile_list">Profile List</string>
+    <string name="profile_search">Search Profile by Name</string>
+    <string name="title_activity_general_information">General Information</string>
+    <string name="title_activity_diet_list">Diet List</string>
+    <string name="title_activity_vaccine_list">Vaccine List</string>
+    <string name="title_activity_medical_history_list">Medical HistoryList</string>
+    <string name="title_activity_doctors_list">Doctors List</string>
+    <string name="title_activity_medicine_list">Medicine List</string>
+    <string name="profilenid">National ID/Birth Certificate No</string>
+
+    <string name="takePhoto">Take Photo</string>
+
+    <string name="takePrecriptionReport">Take Prescription/Report</string>
+
+    <string name="doctor_specialist">Specialist</string>
+
+
+    <string-array name="gender_spinner_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="diet_type_array">
+        <item>Breakfast</item>
+        <item>Launch</item>
+        <item>Dinner</item>
+    </string-array>
+    <string-array name="relation_spinner_array">
+        <item>Myself</item>
+        <item>Father</item>
+        <item>Mother</item>
+        <item>Son</item>
+        <item>Daughter</item>
+        <item>Husband</item>
+        <item>Wife</item>
+        <item>Brother</item>
+        <item>Sister</item>
+        <item>Grandfather</item>
+        <item>Grandmother</item>
+        <item>Grandson</item>
+        <item>Granddaughter</item>
+        <item>Uncle</item>
+        <item>Aunt</item>
+        <item>Nephew</item>
+        <item>Niece</item>
+        <item>Cousin</item>
+        <item>Father-in-law</item>
+        <item>Mother-in-law</item>
+        <item>Sister-in-law</item>
+        <item>Brother-in-law</item>
+    </string-array>
+
+    <string-array name="blood_group_spinner_array">
+        <item>A+</item>
+        <item>B+</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>A-</item>
+        <item>O-</item>
+    </string-array>
+    <string-array name="doctor_specialist_spinner_array">
+        <item>INTERNAL MEDICINE</item>
+        <item>CARDIOLOGY</item>
+        <item>CARDIAC AND VASCULAR SURGERY</item>
+        <item>GASTROENTEROLOGY</item>
+        <item>GENERAL SURGERY</item>
+        <item>UROLOGY</item>
+        <item>DENTAL</item>
+        <item>ENDOCRINOLOGY</item>
+        <item>ONCOLOGY</item>
+        <item>CLINICAL HAEMATOLOGY</item>
+        <item>PEDIATRICS</item>
+        <item>NEONATOLOGY</item>
+        <item>DERMATOLOGY</item>
+        <item>ENT,HEAD AND NECK SURGERY</item>
+        <item>ORTHOPEDICS</item>
+        <item>NEURO SURGERY</item>
+        <item>NEURO MEDICINE</item>
+        <item>OBGYN</item>
+        <item>PATHOLOGY</item>
+        <item>RADIOLOGY</item>
+        <item>OPHTHALMOLOGY</item>
+        <item>ICU</item>
+    </string-array>
+    <string name="title_activity_hospital_list">Hospital List</string>
+    <string name="title_activity_add_hospital">Add Hospital</string>
+    <string name="add_hospital">Add Hospital</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>
